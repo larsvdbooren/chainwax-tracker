@@ -2,8 +2,6 @@ export const bikes = [
   {
     id: "b1",
     name: "mtb",
-    maxChainDistance: 8000, // totale maximale afstand
-    maxRotationDistance: 400, // maximale afstand tot "rewax"
     activityType: ["mtb", "gravel"], // mogelijkheid om ritten meteen te filteren
     activeChainId: "mtb1",
     chains: [
@@ -13,6 +11,9 @@ export const bikes = [
         totalDistance: 2400.75,
         rotationDistance: 345.253,
         rotations: 3,
+        maxChainDistance: 8000, // totale maximale afstand
+        maxRotationDistance: 400, // maximale afstand tot "rewax"
+        waxAlert: 300,
       },
       {
         id: "mtb2",
@@ -20,6 +21,9 @@ export const bikes = [
         totalDistance: 2800.37,
         rotationDistance: 0,
         rotations: 4,
+        maxChainDistance: 8000, // totale maximale afstand
+        maxRotationDistance: 400, // maximale afstand tot "rewax"
+        waxAlert: 300,
       },
       {
         id: "mtb3",
@@ -27,14 +31,15 @@ export const bikes = [
         totalDistance: 2196.23,
         rotationDistance: 0,
         rotations: 3,
+        maxChainDistance: 8000, // totale maximale afstand
+        maxRotationDistance: 400, // maximale afstand tot "rewax"
+        waxAlert: 300,
       },
     ],
   },
   {
     id: "b2",
     name: "roadbike",
-    maxChainDistance: 10000, // totale maximale afstand
-    maxRotationDistance: 500, // maximale afstand tot "rewax"
     activityType: ["road", "virtual"], // mogelijkheid om ritten meteen te filteren
     activeChainId: "rb2",
     chains: [
@@ -44,6 +49,9 @@ export const bikes = [
         totalDistance: 8746.25,
         rotationDistance: 0,
         rotations: 8,
+        maxChainDistance: 10000, // totale maximale afstand
+        maxRotationDistance: 500, // maximale afstand tot "rewax"
+        waxAlert: 400,
       },
       {
         id: "rb2",
@@ -51,6 +59,9 @@ export const bikes = [
         totalDistance: 8206.734,
         rotationDistance: 457.21,
         rotations: 8,
+        maxChainDistance: 10000, // totale maximale afstand
+        maxRotationDistance: 500, // maximale afstand tot "rewax"
+        waxAlert: 400,
       },
     ],
   },
