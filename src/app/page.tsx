@@ -31,15 +31,6 @@ export default function Home() {
           level={chainWear.level}
         />
       </li>
-      // <li key={bike.id}>
-      //   <h2 className="text-xl">Bike type: {bike.name}</h2>
-      //   <p>Total chains: {bike.chains.length}</p>
-      //   <p>Total distance: {totalChainDistance} km</p>
-      //   <p>Current active chain: {activeChainName}</p>
-      //   <p>Active chain distance: {activeChainDistance}</p>
-      //   <p>Chain rotation: {chainWear.level}</p>
-      //   <p>Chain wear %: {chainWear.percent}</p>
-      // </li>
     );
   });
 
